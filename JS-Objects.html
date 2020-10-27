@@ -1,0 +1,23 @@
+<! DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Objects</h2>
+
+
+<!-- Paragraph tag is populated with dynamic values -->
+<p id="demo"></p> 
+
+<script>
+// Create an object:
+//Its is in key value format , after : will be value //Similar to JSon format
+var person = {firstName:"John", lastName:"Doe", age:30, eyeColor:"blue"}; // normally will come API
+
+// Display some data from the object:
+//No Events so will be fired on load
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script>
+
+</body>
+</html>
