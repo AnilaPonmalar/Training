@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+  <title>Add numbers</title>
+</head>
+<body>
+
+<label>Enter Number A  </label><input id="x" type="text" ><br/><br/>
+<label>Enter Number B  </label><input id="y" type="text"><br/><br/>
+
+<button id="go" onclick="add()">ADD 2 numbers</button><br/><br/>
+
+<div id="result"></div>
+
+
+<script>
+  function add() {
+    var x = parseInt(document.getElementById('x').value);
+    var y = parseInt(document.getElementById('y').value);
+
+   document.getElementById('result').innerHTML = "Result :"+ x+y; // Is this correct method for adding
+
+}
+
+</script>
+
+</body>
+</html>
